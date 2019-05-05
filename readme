@@ -1,0 +1,30 @@
+
+Question C  dependencies
+
+Question C is a web api using flask python framework. 
+Therefore you will need to install python3 intepreter
+
+Before running it please install the following packages
+1. install flask - pip install flask
+2. googlesearch - install with pip install google-search
+3. BeautifulSoup web scraping package - pip install beautifulsoup4
+4. html parser - pip install html5lib
+5. Natural language toolkit nltk - pip install nltk
+
+
+
+To run:-on local machine
+On linux:
+in the command line, change to the directory where the file web_scriping_question_c.py is
+set the path variable using 
+export FLASK_APP=web_scriping_question_c.py
+finally type
+flask run
+On Window:
+change to the directory of the file web_scriping_question_c.py
+set the flask_app variable via:
+set FLASK_APP=web_scriping_question_c.py
+finally type the following to run:
+python web_scriping_question_c.py
+
+
